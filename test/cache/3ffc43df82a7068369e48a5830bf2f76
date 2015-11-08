@@ -1,0 +1,17 @@
+<html>
+	<b>Layout</b>
+	
+	<!--[if lt IE 9]>
+		<title>ViewMacro</title>
+		<script src="html5shiv.js"></script>
+		<script src="respond.js"></script>
+<strong>Hello, Faddle!</strong>
+	<![endif]-->
+	<div class="content">
+		<!-- {% #vacancy %} -->
+	</div>
+
+
+<hr /><p> @2015 autorealm, col. </p>
+
+</html>

@@ -1,0 +1,73 @@
+<?php
+//000000000000facd19b3e0a5b271224dba0ad036d9b00\ns:956:"<html>
+	<b>Layout</b>
+	
+	<!--[if lt IE 9]>
+		<title>ViewMacro</title>
+		<script src="html5shiv.js"></script>
+		<script src="respond.js"></script>
+<strong>Hello, Faddle!</strong>
+	<![endif]-->
+	<div class="content">
+		
+
+
+<div>
+<h3>模板实例</h3>
+			'same message.'
+		<br>
+Faddle	
+<p><b>消耗时间：</b>18.600 ms</p>
+
+this echo by php
+
+<p>Filter</p>
+<p>array(4) {
+  ["nem"]=>
+  string(13) "Firsot,in co."
+  ["cor"]=>
+  int(12500)
+  [0]=>
+  string(0) ""
+  ["empty"]=>
+  string(0) ""
+}
+</p>
+<p>正确</p>
+<p>array(2) {
+  ["nem"]=>
+  string(13) "Firsot,in co."
+  ["cor"]=>
+  int(12500)
+}
+</p>
+
+
+
+
+Name_1Name_2</div>
+
+
+<strong>Hello, Faddle!</strong>
+
+<!-- 以下内容原样显示 -->
+
+<div>
+{{ $engine }}
+<br>
+<?php echo 'literal<br>'; ?>
+{% section name="footer" %}
+<p> @2015 autorealm, col. </p>
+{% endsection %}
+<br>
+{% include file="test" as="test" %}
+</div>
+<!-- 内容原样显示 结束 -->
+
+	</div>
+
+
+<hr /><p> @2015 autorealm, col. </p>
+
+</html>";
+?>
